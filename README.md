@@ -6,10 +6,10 @@
 This project is a complete implementation of a **32-bit Virtual Machine (VM)** and a **2-pass Assembler** developed from scratch in **C**. It simulates a Von Neumann architecture, handling the full **Fetch-Decode-Execute** cycle without relying on high-level abstractions.
 
 ## 🚀 Key Features
-* [cite_start]**CPU Simulation:** Implements bitwise operations (masks, shifts) to decode instructions, handling arithmetic overflows and sign extensions manually[cite: 301, 372].
-* [cite_start]**Memory Management:** Simulates a 64KB RAM with **Little Endian** addressing and robust segmentation fault detection[cite: 402, 561].
-* [cite_start]**Assembler:** Converts Assembly language into 32-bit hexadecimal machine code using a 2-pass strategy (Label resolution + Instruction encoding)[cite: 104].
-* [cite_start]**Robustness:** Strict error handling for memory access bounds and arithmetic overflows (Critical vs Standard)[cite: 177, 494].
+* **CPU Simulation:** Implements bitwise operations (masks, shifts) to decode instructions, handling arithmetic overflows and sign extensions manually[cite: 301, 372].
+* **Memory Management:** Simulates a 64KB RAM with **Little Endian** addressing and robust segmentation fault detection[cite: 402, 561].
+* **Assembler:** Converts Assembly language into 32-bit hexadecimal machine code using a 2-pass strategy (Label resolution + Instruction encoding)[cite: 104].
+* **Robustness:** Strict error handling for memory access bounds and arithmetic overflows (Critical vs Standard)[cite: 177, 494].
 
 ## 📂 Project Structure
 *Note: Source code filenames are in French following the original academic guidelines.*
